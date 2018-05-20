@@ -1,0 +1,7 @@
+create database company;
+select database();
+create table emp(regid int primary key,name varchar(20),salary int);
+insert into emp values(99,'aaa',20000);
+insert into emp values(88,'bbb',30000);
+insert into emp values(78,'ccc',50000);
+select * from emp;
