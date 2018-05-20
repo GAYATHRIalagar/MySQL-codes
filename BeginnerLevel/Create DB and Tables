@@ -1,0 +1,4 @@
+create database db;
+select database();
+create table student(id int,name varchar(20),fathersname varchar(15),mothersname varchar(15),city varchar(20),phno int,sex varchar(15),10thmarks int,12thmarks int,hobbies varchar(20));
+desc student;
