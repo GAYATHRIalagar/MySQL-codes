@@ -1,0 +1,5 @@
+create table emp(ID int NOT NULL AUTO_INCREMENT,name varchar(20),age int,PRIMARY KEY (ID));
+insert into emp(name,age) values('aaa',20);
+insert into emp(name,age) values('bbb',30);
+insert into emp(name,age) values('ccc',50);
+select * from emp;
