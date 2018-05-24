@@ -1,0 +1,7 @@
+create table stu1(id int,name varchar(20),fathersname varchar(15),mothersname varchar(15),city varchar(20),phno varchar(10),sex varchar(15),10thmarks int,12thmarks int,hobbies varchar(20));
+insert into stu1 values(101,'panda','jayaraman','kannamani','kannivadi',9087654321,'female',469,1101,'watchingtv');
+insert into stu1 values(102,'kars','annadhasan','maheswari','dindigul',8923415678,'female',489,1085,'eating');
+insert into stu1 values(103,'pree','mani','maheswari','madurai',7653210054,'female',470,1050,'sleeping');
+insert into stu1 values(104,'gayu','alagar','kala','madurai',8912345670,'female',480,1090,'sleeping_eating');
+select count(*) from stu1;
+select distinct(mothersname) from stu1;
