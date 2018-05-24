@@ -1,0 +1,10 @@
+create table emp(id int,name varchar(20),age int,address varchar(20),salary int);
+insert into emp values(1,'Ramesh',32,'Ahmedabad',2000);
+insert into emp values(2,'khilan',25,'Delhi',1500);
+insert into emp values(3,'Kaushik',23,'Kota',2000);
+insert into emp values(4,'Chaitali',25,'Mumbai',6500);
+insert into emp values(5,'Hardik',27,'Bhopal',8500);
+insert into emp values(6,'Komal',22,'MP',4500);
+insert into emp values(7,'Muffy',24,'Indore',10000);
+update emp set address='Maharashtra' where name='Komal';
+select * from emp;
