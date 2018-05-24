@@ -1,0 +1,9 @@
+create table emp(id int,name varchar(20),age int);
+insert into emp values(1,'Vinodini',25);
+insert into emp values(2,'Banu',27);
+insert into emp values(3,'Kaushik',23);
+insert into emp values(4,'Praveen',25);
+insert into emp values(5,'Kamal',22);
+insert into emp values(6,'Malini',24);
+insert into emp values(7,'Ramesh',32);
+select * from emp where age=32 or age=22;
