@@ -1,0 +1,4 @@
+create table guvi(id int,frstname varchar(20),last_name varchar(20),age int);
+CREATE INDEX idx_name ON guvi(last_name);
+desc guvi;
+drop table guvi;
